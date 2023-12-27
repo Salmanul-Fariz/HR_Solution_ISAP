@@ -18,8 +18,10 @@
 
       <!-- Nav -->
       <div class="navbar-nav mx-lg-auto">
-        <span class="nav-item nav-link" aria-current="page">HOME</span>
-        <span class="nav-item nav-link" aria-current="page">ABOUT US</span>
+        <span class="nav-item nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="nav_active"
+          [routerLinkActiveOptions]="{exact: true}">HOME</span>
+        <span class="nav-item nav-link" aria-current="page" [routerLink]="['/about_us']" routerLinkActive="nav_active"
+          [routerLinkActiveOptions]="{exact: true}">ABOUT US</span>
 
         <!-- PRODUCTS dropdown -->
         <div class="nav-item dropdown">
@@ -35,8 +37,10 @@
           </ul>
         </div>
 
-        <span class="nav-item nav-link" aria-current="page">PARTNERS</span>
-        <span class="nav-item nav-link" aria-current="page">CONTACT US</span>
+        <span class="nav-item nav-link" aria-current="page" [routerLink]="['/partners']" routerLinkActive="nav_active"
+          [routerLinkActiveOptions]="{exact: true}">PARTNERS</span>
+        <span class="nav-item nav-link" aria-current="page" [routerLink]="['/contact']" routerLinkActive="nav_active"
+          [routerLinkActiveOptions]="{exact: true}">CONTACT US</span>
       </div>
 
 
