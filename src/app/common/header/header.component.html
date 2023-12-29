@@ -24,16 +24,16 @@
           [routerLinkActiveOptions]="{exact: true}">ABOUT US</span>
 
         <!-- PRODUCTS dropdown -->
-        <div class="nav-item dropdown">
-          <span class="nav-link dropdown-toggle" id="productsDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            PRODUCTS
-          </span>
-          <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-            <li><span class="dropdown-item">Human Resource Management System</span></li>
-            <li><span class="dropdown-item">Timesheet and Attendance Management Software</span></li>
-            <li><span class="dropdown-item">Job Portal and Auto Recruitment Management Dashboard</span></li>
-            <li><span class="dropdown-item">Recruitment Management System (RMS)</span></li>
+        <div class="nav_dropdown">
+          <span class="nav-link" aria-expanded=" false" [routerLink]="['/products']" routerLinkActive="nav_active"
+            [routerLinkActiveOptions]="{exact: true}">PRODUCTS</span>
+
+          <ul class="dropdown-content">
+            <li><span class="nest_nav_span dropdown-item">Human Resource Management System</span></li>
+            <li><span class="nest_nav_span dropdown-item">Timesheet and Attendance Management Software</span></li>
+            <li><span class="nest_nav_span dropdown-item">Job Portal and Auto Recruitment Management Dashboard</span>
+            </li>
+            <li><span class="nest_nav_span dropdown-item">Recruitment Management System (RMS)</span></li>
           </ul>
         </div>
 
