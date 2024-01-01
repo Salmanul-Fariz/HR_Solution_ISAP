@@ -23,6 +23,9 @@ import { ProductsComponent } from './pages/products/products.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HumanResourceDetailsComponent } from './pages/products/human-resource-details/human-resource-details.component';
+import { TimesheetAttendanceDetailsComponent } from './pages/products/timesheet-attendance-details/timesheet-attendance-details.component';
+import { JobPortalAutoRecruitmentDetailsComponent } from './pages/products/job-portal-auto-recruitment-details/job-portal-auto-recruitment-details.component';
+import { RecruitmentManagementDetailsComponent } from './pages/products/recruitment-management-details/recruitment-management-details.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +39,9 @@ import { HumanResourceDetailsComponent } from './pages/products/human-resource-d
     HeaderComponent,
     FooterComponent,
     HumanResourceDetailsComponent,
+    TimesheetAttendanceDetailsComponent,
+    JobPortalAutoRecruitmentDetailsComponent,
+    RecruitmentManagementDetailsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,67 @@
+section {
+  .background_img {
+    background-image: url(https://axolonerp.com/wp-content/uploads/2022/12/finance-accounting-Management-Software-Dubai-UAE-Bahrain-Muscat-GCC-MENA.webp);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    padding: 80px 0;
+
+    position: relative;
+
+    .bg_img_overlay {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #000;
+      opacity: 0.62;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+
+    .content_section {
+      max-width: 1140px px;
+      display: flex;
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px 80px;
+      cursor: pointer;
+
+      h2 {
+        color: #fff;
+        font-family: Manrope, Sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .content_container {
+    p {
+      color: #737e9b;
+      font-size: 18px;
+    }
+  }
+
+  .tabs_container {
+    ul {
+      display: flex;
+      justify-content: center;
+
+      button {
+        font-size: 17px;
+        padding: 15px 20px;
+      }
+    }
+
+    .tabs_content_container {
+      p {
+        color: #737e9b;
+        font-size: 20px;
+      }
+    }
+  }
+}

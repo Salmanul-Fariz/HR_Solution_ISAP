@@ -8,6 +8,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PartnersComponent } from './pages/partners/partners.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { HumanResourceDetailsComponent } from './pages/products/human-resource-details/human-resource-details.component';
+import { JobPortalAutoRecruitmentDetailsComponent } from './pages/products/job-portal-auto-recruitment-details/job-portal-auto-recruitment-details.component';
+import { RecruitmentManagementDetailsComponent } from './pages/products/recruitment-management-details/recruitment-management-details.component';
+import { TimesheetAttendanceDetailsComponent } from './pages/products/timesheet-attendance-details/timesheet-attendance-details.component';
 
 const routes: Routes = [
   {
@@ -28,6 +31,18 @@ const routes: Routes = [
           {
             path: 'human_resource_details',
             component: HumanResourceDetailsComponent,
+          },
+          {
+            path: 'job_portal_auto_recruitment_details',
+            component: JobPortalAutoRecruitmentDetailsComponent,
+          },
+          {
+            path: 'recruitment_management_details',
+            component: RecruitmentManagementDetailsComponent,
+          },
+          {
+            path: 'timesheet_attendance_details',
+            component: TimesheetAttendanceDetailsComponent,
           },
         ],
       },
