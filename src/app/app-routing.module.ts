@@ -7,6 +7,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PartnersComponent } from './pages/partners/partners.component';
 import { ProductsComponent } from './pages/products/products.component';
+import { HumanResourceDetailsComponent } from './pages/products/human-resource-details/human-resource-details.component';
 
 const routes: Routes = [
   {
@@ -17,7 +18,19 @@ const routes: Routes = [
       { path: 'about_us', component: AboutUsComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'partners', component: PartnersComponent },
-      { path: 'products', component: ProductsComponent },
+      {
+        path: 'products',
+        children: [
+          {
+            path: '',
+            component: ProductsComponent,
+          },
+          {
+            path: 'human_resource_details',
+            component: HumanResourceDetailsComponent,
+          },
+        ],
+      },
     ],
   },
 ];

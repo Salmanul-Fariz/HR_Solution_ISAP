@@ -29,7 +29,10 @@
             [routerLinkActiveOptions]="{exact: true}">PRODUCTS</span>
 
           <ul class="dropdown-content">
-            <li><span class="nest_nav_span dropdown-item">Human Resource Management System</span></li>
+            <li><span class="nest_nav_span dropdown-item" [routerLink]="['/products/human_resource_details']">Human
+                Resource
+                Management
+                System</span></li>
             <li><span class="nest_nav_span dropdown-item">Timesheet and Attendance Management Software</span></li>
             <li><span class="nest_nav_span dropdown-item">Job Portal and Auto Recruitment Management Dashboard</span>
             </li>
@@ -42,7 +45,6 @@
         <span class="nav-item nav-link" aria-current="page" [routerLink]="['/contact']" routerLinkActive="nav_active"
           [routerLinkActiveOptions]="{exact: true}">CONTACT US</span>
       </div>
-
 
       <!-- Action -->
       <div class="d-flex align-items-lg-center me-3 mt-3 mt-lg-0">

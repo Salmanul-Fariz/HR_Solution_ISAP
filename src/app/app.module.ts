@@ -6,7 +6,11 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {
+  NgbCarouselModule,
+  NgbModule,
+  NgbNavModule,
+} from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -18,13 +22,26 @@ import { PartnersComponent } from './pages/partners/partners.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
+import { HumanResourceDetailsComponent } from './pages/products/human-resource-details/human-resource-details.component';
 
 @NgModule({
-  declarations: [AppComponent, PagesComponent, HomeComponent, AboutUsComponent, ContactComponent, PartnersComponent, ProductsComponent, HeaderComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    PagesComponent,
+    HomeComponent,
+    AboutUsComponent,
+    ContactComponent,
+    PartnersComponent,
+    ProductsComponent,
+    HeaderComponent,
+    FooterComponent,
+    HumanResourceDetailsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbCarouselModule,
+    NgbNavModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
