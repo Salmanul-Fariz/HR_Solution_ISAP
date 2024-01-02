@@ -42,7 +42,7 @@
 
     <div class="row about_content_2">
       <div class="col-12 position-relative">
-        <div class="image_container"></div>
+        <div class="image_container img_1"></div>
 
         <!-- Content -->
         <div class="content_container_2">
@@ -68,5 +68,57 @@
 
   </div>
 
+  <div class="container-fluid service_section">
+    <div class="row">
+
+      <div class="col-12 py-3">
+        <div class="d-flex justify-content-center">
+          <div class="heading_section">
+            <h2 class="text-center text-uppercase">Services</h2>
+          </div>
+        </div>
+      </div>
+
+      <owl-carousel-o [options]="customOptions">
+
+        @for (slide of slidesStore; track slide.id) {
+        <ng-container>
+          <ng-template carouselSlide [id]="slide.id">
+            <div class="owl_img">
+              <img [src]="slide.src" alt="img">
+            </div>
+          </ng-template>
+        </ng-container>
+        }
+
+      </owl-carousel-o>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row about_content_2">
+      <div class="col-12 position-relative">
+        <div class="image_container img_2"></div>
+
+        <!-- Content -->
+        <div class="content_container_2">
+
+          <div class="content">
+
+            <h3>Our Mission</h3>
+
+            <p>
+              To hold the responsibility for making the technology simple, accessible, and affordable to all,
+              irrespective of the volume of their business, without compromising on quality. We adopt world-class
+              standards in serving our customers. We always keep the customers at the front. We strive to simplify life
+              with the latest and updated technology.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </section>

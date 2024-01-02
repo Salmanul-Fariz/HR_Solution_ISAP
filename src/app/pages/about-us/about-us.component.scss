@@ -60,13 +60,20 @@ section {
 
     .image_container {
       min-height: 400px;
-      background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/mission-bg.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
       transition: background 0.3s, border 0.3s, border-radius 0.3s,
         box-shadow 0.3s;
       padding: 50px 0;
+
+      &.img_1 {
+        background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/mission-bg.jpg);
+      }
+
+      &.img_2 {
+        background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/abt-bg-2.jpg);
+      }
     }
 
     .content_container_2 {
@@ -95,6 +102,17 @@ section {
           font-weight: 300;
         }
       }
+    }
+  }
+
+  .service_section {
+    background-image: url(../../../assets/images/banner/white-background-with-blue-tech-hexagon_1017-19366.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .owl_img {
+      padding: 0px 50px;
     }
   }
 }
