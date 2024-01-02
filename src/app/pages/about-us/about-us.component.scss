@@ -1,0 +1,100 @@
+section {
+  .background_img {
+    background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/about-bg.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    padding: 80px 0;
+
+    position: relative;
+
+    .bg_img_overlay {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #000;
+      opacity: 0.62;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+
+    .content_section {
+      max-width: 1140px px;
+      display: flex;
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px 80px;
+      cursor: pointer;
+
+      h2 {
+        color: #fff;
+        font-family: Manrope, Sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .about_content {
+    h2 {
+      // font-size: 3.5rem;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 46px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #737e9b;
+    }
+  }
+
+  .about_content_2 {
+    padding-top: 195px;
+    padding-bottom: 60px;
+    margin-left: 70px;
+
+    .image_container {
+      min-height: 400px;
+      background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/mission-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      transition: background 0.3s, border 0.3s, border-radius 0.3s,
+        box-shadow 0.3s;
+      padding: 50px 0;
+    }
+
+    .content_container_2 {
+      top: -128px;
+      left: -56px;
+      position: absolute;
+      background-color: #2d2d2d;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 54px;
+        width: 500px;
+
+        h3 {
+          font-size: 34px;
+          font-weight: 700;
+          color: #fff;
+          margin-bottom: 30px;
+        }
+
+        p {
+          color: #cbcbcb;
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
