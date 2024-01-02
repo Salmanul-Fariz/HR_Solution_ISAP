@@ -1,0 +1,103 @@
+section {
+  .background_img {
+    background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/about-bg.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    padding: 80px 0;
+
+    position: relative;
+
+    .bg_img_overlay {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #000;
+      opacity: 0.62;
+      transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    }
+
+    .content_section {
+      max-width: 1140px px;
+      display: flex;
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px 80px;
+      cursor: pointer;
+
+      h2 {
+        color: #fff;
+        font-family: Manrope, Sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .main_heading_container {
+    h2 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 46px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #737e9b;
+    }
+  }
+
+  .contact_card_container {
+    .card_container {
+      padding: 40px 25px 25px;
+      width: 100%;
+      box-shadow: 0 0 23px 0 #cde7f1;
+      min-height: 247px;
+      border-bottom: 5px solid #474747;
+      text-align: center;
+      height: 100%;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out;
+      -ms-transition: 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+
+      &:hover {
+        cursor: default;
+        box-shadow: 0 0 46px 0 #b5b5b5;
+      }
+
+      .icon_container {
+        margin-bottom: 23px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 62px;
+        height: 62px;
+        background: #e5e5e5;
+        border-radius: 4px;
+        transform: rotate(-135deg);
+        padding: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          display: inline-block;
+          transform: rotate(137deg);
+
+          i {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .contact_form_container {
+  }
+}
