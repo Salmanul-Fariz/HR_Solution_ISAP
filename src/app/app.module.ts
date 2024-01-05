@@ -28,6 +28,8 @@ import { JobPortalAutoRecruitmentDetailsComponent } from './pages/products/job-p
 import { RecruitmentManagementDetailsComponent } from './pages/products/recruitment-management-details/recruitment-management-details.component';
 import { BannerSectionComponent } from './pages/home/banner-section/banner-section.component';
 import { Section2Component } from './pages/home/section-2/section-2.component';
+import { Section3Component } from './pages/home/section-3/section-3.component';
+import { Section4Component } from './pages/home/section-4/section-4.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { Section2Component } from './pages/home/section-2/section-2.component';
     RecruitmentManagementDetailsComponent,
     BannerSectionComponent,
     Section2Component,
+    Section3Component,
+    Section4Component,
   ],
   imports: [
     BrowserModule,
