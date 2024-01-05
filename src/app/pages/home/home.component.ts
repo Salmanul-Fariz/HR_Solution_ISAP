@@ -1,9 +1,4 @@
-import {
-  AfterViewInit,
-  ChangeDetectorRef,
-  Component,
-  OnInit,
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 @Component({
@@ -11,7 +6,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent implements OnInit, AfterViewInit {
+export class HomeComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
     autoplay: true,
@@ -174,35 +169,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
   isHaveSucess = false;
   isSubmittProcess = false;
 
-  constructor(
-    private builder: FormBuilder,
-    private changeRef: ChangeDetectorRef
-  ) {}
+  constructor(private builder: FormBuilder) {}
 
   ngOnInit(): void {
     this.patchvalue();
-  }
-
-  // Subscribe to NgbCarousel slide event on initialization
-  ngAfterViewInit() {
-    if (typeof document !== 'undefined') {
-      this.zoomCarouselImage('0');
-
-      const myCarousel = document?.getElementById(
-        'carouselExampleCaptions'
-      ) as HTMLElement;
-
-      if (myCarousel)
-        myCarousel.addEventListener('slide.bs.carousel', (event: any) => {
-          this.zoomCarouselImageRemove();
-
-          const targetIndex = event.to;
-
-          setTimeout(() => {
-            this.zoomCarouselImage(targetIndex);
-          }, 900);
-        });
-    }
   }
 
   patchvalue() {
@@ -212,26 +182,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
       subject: ['', Validators.required],
       message: ['', Validators.required],
     });
-  }
-
-
-
-  zoomCarouselImage(id: string) {
-    const image = document.getElementById(
-      `carousel_image_${id}`
-    ) as HTMLImageElement;
-
-    image.style.transform = 'scale(1.06)';
-  }
-
-  zoomCarouselImageRemove() {
-    for (let i = 0; i < 3; i++) {
-      const image = document.getElementById(
-        `carousel_image_${i}`
-      ) as HTMLImageElement;
-
-      image.style.transform = 'scale(1)';
-    }
   }
 
   scrollById(id: string) {
