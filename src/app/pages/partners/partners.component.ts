@@ -53,33 +53,33 @@ export class PartnersComponent {
       id: '5',
       src: 'https://axolonerp.com/wp-content/uploads/2022/07/6-1.png',
     },
-    {
-      id: '6',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/7-1.png',
-    },
-    {
-      id: '7',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/2-2.png',
-    },
-    {
-      id: '8',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/3-2.png',
-    },
-    {
-      id: '9',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/4-1.png',
-    },
-    {
-      id: '10',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/5-1.png',
-    },
-    {
-      id: '11',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/6-1.png',
-    },
-    {
-      id: '12',
-      src: 'https://axolonerp.com/wp-content/uploads/2022/07/7-1.png',
-    },
+    // {
+    //   id: '6',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/7-1.png',
+    // },
+    // {
+    //   id: '7',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/2-2.png',
+    // },
+    // {
+    //   id: '8',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/3-2.png',
+    // },
+    // {
+    //   id: '9',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/4-1.png',
+    // },
+    // {
+    //   id: '10',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/5-1.png',
+    // },
+    // {
+    //   id: '11',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/6-1.png',
+    // },
+    // {
+    //   id: '12',
+    //   src: 'https://axolonerp.com/wp-content/uploads/2022/07/7-1.png',
+    // },
   ];
 }
