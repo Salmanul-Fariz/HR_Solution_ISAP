@@ -32,6 +32,7 @@ import { Section3Component } from './pages/home/section-3/section-3.component';
 import { Section4Component } from './pages/home/section-4/section-4.component';
 import { Section5Component } from './pages/home/section-5/section-5.component';
 import { Section6Component } from './pages/home/section-6/section-6.component';
+import { Section7Component } from './pages/home/section-7/section-7.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { Section6Component } from './pages/home/section-6/section-6.component';
     Section4Component,
     Section5Component,
     Section6Component,
+    Section7Component,
   ],
   imports: [
     BrowserModule,

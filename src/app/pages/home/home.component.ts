@@ -189,48 +189,5 @@ export class HomeComponent implements OnInit {
     element.scrollIntoView({ behavior: 'smooth' });
   }
 
-  formSubmit() {
-    // this.isHaveError = false;
-    // this.isHaveSucess = false;
-    // if (this.isSubmittProcess) {
-    //   return;
-    // }
-    // if (this.FormData.invalid) {
-    //   this.submitted = true;
-    //   this.FormData.markAllAsTouched();
-    //   return;
-    // }
-    // this.isSubmittProcess = true;
-    // const { name, subject, email, message } = this.FormData.controls;
-    // const templateParams = {
-    //   name: name.value,
-    //   subject: subject.value,
-    //   email: email.value,
-    //   message: message.value,
-    // };
-    // emailjs
-    //   .send(
-    //     'service_xwyv35j',
-    //     'template_b4errqh',
-    //     templateParams,
-    //     '0-h4ZxqO_dppeMWJl'
-    //   )
-    //   .then(
-    //     () => {
-    //       this.isHaveError = false;
-    //       this.isHaveSucess = true;
-    //       this.isSubmittProcess = false;
-    //       this.patchvalue();
-    //       setTimeout(() => {
-    //         this.isHaveSucess = false;
-    //         this.changeRef.detectChanges();
-    //       }, 2500);
-    //     },
-    //     () => {
-    //       this.isHaveError = true;
-    //       this.isHaveSucess = false;
-    //       this.isSubmittProcess = false;
-    //     }
-    //   );
-  }
+
 }
