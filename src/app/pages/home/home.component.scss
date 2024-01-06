@@ -204,91 +204,10 @@
 // Section 7
 
 // Section 8
-.section_8 {
-  form {
-    .contact_form_control {
-      &:active {
-        outline: none !important;
-        border: 1px solid #ced4da !important;
-      }
-
-      &:focus {
-        outline: none !important;
-        border: 1px solid #ced4da !important;
-      }
-
-      color: #4f4f4f !important;
-      font-size: 17px !important;
-    }
-
-    .btn_dark {
-      background: #222;
-      color: #fff;
-      padding: 8px 16px;
-      font-size: 17px;
-      border-radius: 26px;
-      font-weight: 700;
-      border: none;
-      -webkit-transition: 0.5s ease-in-out;
-      transition: 0.5s ease-in-out;
-      -ms-transition: 0.5s ease-in-out;
-      -moz-transition: 0.5s ease-in-out;
-      -o-transition: 0.5s ease-in-out;
-
-      &:hover {
-        background: #dbdbdb;
-        color: #5b5b5b;
-        cursor: pointer;
-      }
-    }
-  }
-}
 
 // Section 9
 .section_9 {
-  .card_container {
-    padding: 40px 25px 25px;
-    width: 100%;
-    box-shadow: 0 0 23px 0 #cde7f1;
-    min-height: 247px;
-    border-bottom: 5px solid #474747;
-    text-align: center;
-    height: 100%;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-
-    &:hover {
-      cursor: default;
-      box-shadow: 0 0 46px 0 #b5b5b5;
-    }
-
-    .icon_container {
-      margin-bottom: 23px;
-      margin-right: auto;
-      margin-left: auto;
-      width: 62px;
-      height: 62px;
-      background: #e5e5e5;
-      border-radius: 4px;
-      transform: rotate(-135deg);
-      padding: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      span {
-        display: inline-block;
-        transform: rotate(137deg);
-
-        i {
-          font-size: 24px;
-        }
-      }
-    }
-  }
+ 
 }
 
 // Section Incluse
