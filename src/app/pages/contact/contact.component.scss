@@ -1,7 +1,7 @@
 section {
   .background_img {
-    background-image: url(https://axolonerp.com/wp-content/uploads/2022/07/about-bg.jpg);
-    background-position: bottom center;
+    background-image: url("../../../assets/images/sub_banner/21.\ longbanner-contactus.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: background 0.3s, border 0.3s, border-radius 0.3s,
@@ -11,7 +11,7 @@ section {
     position: relative;
 
     .bg_img_overlay {
-      height: 100%;
+      // height: 100%;
       width: 100%;
       top: 0;
       left: 0;
