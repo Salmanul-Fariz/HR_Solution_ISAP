@@ -48,48 +48,7 @@
       }
     }
   }
-  .carousel_caption1 {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #000000;
-    text-align: center;
-
-    span {
-      color: #0d6efd;     
-    }
- h2 {
-      font-size: 50px;
-      text-transform: uppercase;
-    }
-
-    &.item_carousel_1 {
-      left: 25%;
-
-      h2 {
-        text-align: start;
-      }
-    }
-
-    &.item_carousel_2 {
-      left: 50%;
-
-      h2 {
-        text-align: center;
-      }
-    }
-
-    &.item_carousel_3 {
-      left: 25%;
-
-      h2 {
-        text-align: start;
-      }
-    }
-  }
 }
-
 @media (max-width: 576px) {
   .carousel_item {
     .carousel_caption {
